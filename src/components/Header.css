@@ -1,0 +1,8 @@
+header {
+  padding-block: 1rem;
+  border-bottom-style: dotted;
+  border-bottom-width: .5rem;
+  border-bottom-color: salmon;
+
+  margin-block-end: 2rem;
+}
