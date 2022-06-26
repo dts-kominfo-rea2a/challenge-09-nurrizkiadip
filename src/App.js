@@ -12,12 +12,12 @@ const App = () => {
     <div className="App">
       <Header></Header>
       <div className="contact-container">
-        <Contact contact={contacts[0]}></Contact>
-        <Contact contact={contacts[1]}></Contact>
-        <Contact contact={contacts[2]}></Contact>
-        <Contact contact={contacts[3]}></Contact>
-        <Contact contact={contacts[4]}></Contact>
-        <Contact contact={contacts[5]}></Contact>
+        <Contact key={0} contact={contacts[0]}></Contact>
+        <Contact key={1} contact={contacts[1]}></Contact>
+        <Contact key={2} contact={contacts[2]}></Contact>
+        <Contact key={3} contact={contacts[3]}></Contact>
+        <Contact key={4} contact={contacts[4]}></Contact>
+        <Contact key={5} contact={contacts[5]}></Contact>
       </div>
     </div>
   );
