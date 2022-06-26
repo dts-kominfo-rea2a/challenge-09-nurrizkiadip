@@ -1,4 +1,4 @@
-main .contact-container {
+.contact-container {
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@ main .contact-container {
   margin-inline: auto;
 }
 
-main .contact-container .contact-item {
+.contact-container .contact-item {
   padding: 1.5rem;
   border-radius: 16px;
   background-color: burlywood;
@@ -18,15 +18,15 @@ main .contact-container .contact-item {
   gap: 1rem;
 }
 
-main .contact-container .contact-item .contact-item__image img {
+.contact-container .contact-item .contact-item__image img {
   height: 200px;
   border-radius: 9999px;
 }
 
-main .contact-container .contact-item .contact-item__info {
+.contact-container .contact-item .contact-item__info {
   flex-grow: 1;
 }
 
-main .contact-container .contact-item .contact-item__info h3 {
+.contact-container .contact-item .contact-item__info h3 {
   font-size: 1.35rem;
 }

@@ -10,12 +10,15 @@ const App = () => {
 
   return (
     <div className="App">
-      <header>
-        <Header></Header>
-      </header>
-      <main>
-        <Contact contacts={contacts}></Contact>
-      </main>
+      <Header></Header>
+      <div className="contact-container">
+        <Contact contact={contacts[0]}></Contact>
+        <Contact contact={contacts[1]}></Contact>
+        <Contact contact={contacts[2]}></Contact>
+        <Contact contact={contacts[3]}></Contact>
+        <Contact contact={contacts[4]}></Contact>
+        <Contact contact={contacts[5]}></Contact>
+      </div>
     </div>
   );
 }

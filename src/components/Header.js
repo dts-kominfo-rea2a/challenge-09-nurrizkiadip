@@ -5,10 +5,10 @@ import React from 'react';
 
 const Header = () => {
   return (
-      <>
+      <header>
         <h1>Call a Friend</h1>
         <div>your friendly contact app</div>
-      </>
+      </header>
   )
 }
 
