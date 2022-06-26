@@ -4,17 +4,17 @@ import './Contact.css'
 
 import React from 'react';
 
-const Contact = ({ contact }) => {
+const Contact = ({ data }) => {
   return (
       <>
           <div className="contact-item">
             <div className="contact-item__image">
-              <img src={contact.photo} alt={contact.name}/>
+              <img src={data.photo} alt={data.name}/>
             </div>
             <div className="contact-item__info">
-              <h3>{contact.name}</h3>
-              <p>{contact.phone}</p>
-              <p>{contact.email}</p>
+              <h3>{data.name}</h3>
+              <p>{data.phone}</p>
+              <p>{data.email}</p>
             </div>
           </div>
       </>
